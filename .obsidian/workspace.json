@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7924c9c9c150b7e8",
+        "id": "d407a5c5bb48d12e",
         "type": "tabs",
         "children": [
           {
-            "id": "389c809f75ef86ff",
+            "id": "f0409699131acde5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PenTest/0 CheatSheets/Enumération.md",
+                "file": "PenTest/0 Playbooks/Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumération"
+              "title": "Enumeration"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PenTest/0 CheatSheets/Enumération.md",
+                "file": "PenTest/0 Playbooks/Enumeration.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Enumération"
+              "title": "Outline of Enumeration"
             }
           },
           {
@@ -183,28 +183,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Créer une nouvelle base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "389c809f75ef86ff",
+  "active": "9dc25ec400defcf7",
   "lastOpenFiles": [
-    "PenTest/0 CheatSheets/Enumération.md",
+    "PenTest/6 Containers",
+    "PenTest/7 Cloud",
+    "PenTest/10 Tools",
+    "PenTest/98 Writeups",
+    "PenTest/99 Templates",
+    "PenTest/5 Active Directory",
+    "PenTest/4 Windows",
+    "00 Inbox/Comment faire.md",
+    "PenTest/Methodology.md",
+    "PenTest/3 Linux",
+    "PenTest/2 Web",
+    "Untitled.md",
+    "PenTest/0 Playbooks/Enumeration.md",
     "Untitled.base",
-    "PenTest/1",
-    "PenTest/0 CheatSheets",
-    "Theory",
-    "PenTest",
-    "00 Inbox",
+    "PenTest/1 Services",
     "Bienvenue.md",
     "créez un lien.md",
-    "Sans titre.base",
     "2026-07-11.md"
   ]
 }
