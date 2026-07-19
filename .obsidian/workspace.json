@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7924c9c9c150b7e8",
+        "id": "af9c95999b09f473",
         "type": "tabs",
         "children": [
           {
-            "id": "389c809f75ef86ff",
+            "id": "208b4a4067319c72",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -193,30 +189,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "389c809f75ef86ff",
+  "active": "499d280dd3d66568",
   "lastOpenFiles": [
-    "Theory/SMB.md",
-    "Theory",
-    "PenTest/6 Containers/Docker.md",
-    "PenTest/6 Containers",
-    "PenTest/5 Active Directory/Kerberoasting.md",
-    "PenTest/5 Active Directory",
-    "PenTest/4 Windows/Registry.md",
-    "PenTest/4 Windows",
-    "PenTest/3 Linux/SUID.md",
-    "PenTest/3 Linux",
-    "PenTest/2 Web/XSS.md",
-    "PenTest/2 Web",
-    "PenTest/10 Tools/Nmap.md",
-    "PenTest/10 Tools",
-    "PenTest/1 Services/445 SMB.md",
-    "PenTest/1 Services",
-    "PenTest/0 Playbooks/Pentest Workflow.md",
+    "01 PenTest/0 Playbooks/Pentest Workflow.md",
+    "99 Attachement",
+    "02 Theory/SMB.md",
+    "02 Theory",
+    "01 PenTest/6 Containers/Docker.md",
+    "01 PenTest/6 Containers",
+    "01 PenTest/5 Active Directory/Kerberoasting.md",
+    "01 PenTest/5 Active Directory",
+    "01 PenTest/4 Windows/Registry.md",
+    "01 PenTest/4 Windows",
+    "01 PenTest/3 Linux/SUID.md",
+    "01 PenTest/3 Linux",
+    "01 PenTest/2 Web/XSS.md",
+    "01 PenTest/2 Web",
+    "01 PenTest/10 Tools/Nmap.md",
+    "01 PenTest/10 Tools",
+    "01 PenTest/1 Services/445 SMB.md",
+    "01 PenTest/1 Services",
     "PenTest/0 CheatSheets/Enumération.md",
     "PenTest/0 Playbooks/Enumeration.md",
-    "PenTest/0 Playbooks",
+    "01 PenTest/0 Playbooks",
     "00 Inbox/Comment faire.md",
-    "00 Inbox",
     "Bienvenue.md",
     "créez un lien.md",
     "2026-07-11.md"
