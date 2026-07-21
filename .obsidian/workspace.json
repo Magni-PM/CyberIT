@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "af9c95999b09f473",
+        "id": "5f5beb57cfd21ad9",
         "type": "tabs",
         "children": [
           {
-            "id": "208b4a4067319c72",
+            "id": "253bfc4ac07e7681",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00 Inbox/Nmap.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "Nmap"
+            }
+          },
+          {
+            "id": "bb3187687bdcb265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "98 Templates/Tool_Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tool_Template"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Rechercher"
             }
           },
           {
@@ -85,6 +104,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "051ed5ac6e15e861",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "98 Templates/Tool_Template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de Tool_Template"
+            }
+          },
+          {
             "id": "04108a8211f50d96",
             "type": "leaf",
             "state": {
@@ -100,20 +133,6 @@
               },
               "icon": "links-coming-in",
               "title": "Rétroliens"
-            }
-          },
-          {
-            "id": "051ed5ac6e15e861",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Bienvenue.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Liens sortants de Bienvenue"
             }
           },
           {
@@ -146,21 +165,6 @@
             }
           },
           {
-            "id": "119c6c4ca35e9b5d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "PenTest/0 CheatSheets/Enumération.md",
-                "followCursor": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Enumération"
-            }
-          },
-          {
             "id": "9dc25ec400defcf7",
             "type": "leaf",
             "state": {
@@ -169,9 +173,24 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "119c6c4ca35e9b5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "98 Templates/Tool_Template.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Tool_Template"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -189,11 +208,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "499d280dd3d66568",
+  "active": "9dc25ec400defcf7",
   "lastOpenFiles": [
-    "01 PenTest/0 Playbooks/Pentest Workflow.md",
-    "99 Attachement",
+    "98 Templates/Technique_Template.md",
+    "98 Templates/Service_Template.md",
+    "98 Templates/PlayBook_Template.md",
+    "98 Templates/Theory_Template.md",
+    "98 Templates/Writeup_Template.md",
+    "98 Templates/Tool_Template.md",
+    "00 Inbox/Nmap.md",
+    "00 Inbox/Truc a revoir.md",
+    "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
+    "01 PenTest/0 Playbooks/Host Enumeration.md",
+    "00 Inbox/Pour moi comment ça se passe.md",
+    "00 Inbox/Sans titre 1.md",
+    "01 PenTest/0 Playbooks/Service Enumeration.md",
+    "00 Inbox/Sans titre 3.md",
+    "00 Inbox/Sans titre 2.md",
+    "01 PenTest/0 Playbooks/Infrastructure Enumeration.md",
+    "01 PenTest/0 Playbooks/OSINT.md",
+    "98 Templates",
+    "00 Inbox/Internal links.md",
+    "99 Attachement/PentestProcess.png",
     "02 Theory/SMB.md",
+    "99 Attachement",
     "02 Theory",
     "01 PenTest/6 Containers/Docker.md",
     "01 PenTest/6 Containers",
@@ -208,13 +246,6 @@
     "01 PenTest/10 Tools/Nmap.md",
     "01 PenTest/10 Tools",
     "01 PenTest/1 Services/445 SMB.md",
-    "01 PenTest/1 Services",
-    "PenTest/0 CheatSheets/Enumération.md",
-    "PenTest/0 Playbooks/Enumeration.md",
-    "01 PenTest/0 Playbooks",
-    "00 Inbox/Comment faire.md",
-    "Bienvenue.md",
-    "créez un lien.md",
-    "2026-07-11.md"
+    "01 PenTest/1 Services"
   ]
 }
