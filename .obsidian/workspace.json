@@ -4,35 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "5f5beb57cfd21ad9",
+        "id": "cc87cb1d635822d1",
         "type": "tabs",
         "children": [
           {
-            "id": "253bfc4ac07e7681",
+            "id": "488ec5547109606e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Inbox/Nmap.md",
+                "file": "01 PenTest/0 Playbooks/OSINT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nmap"
+              "title": "OSINT"
             }
           },
           {
-            "id": "bb3187687bdcb265",
+            "id": "555d684eec6a39f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98 Templates/Tool_Template.md",
+                "file": "98 Templates/PlayBook_Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tool_Template"
+              "title": "PlayBook_Template"
+            }
+          },
+          {
+            "id": "632daf0d16b163aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 PenTest/0 Playbooks/Web Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Web Enumeration"
             }
           }
         ],
@@ -93,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 268.5
   },
   "right": {
     "id": "ae97be5e914afe2d",
@@ -109,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "98 Templates/Tool_Template.md",
+                "file": "98 Templates/PlayBook_Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Tool_Template"
+              "title": "Liens sortants de PlayBook_Template"
             }
           },
           {
@@ -123,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "98 Templates/PlayBook_Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Rétrolien pour PlayBook_Template"
             }
           },
           {
@@ -147,7 +162,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
@@ -161,7 +176,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Toutes les propriétés"
             }
           },
           {
@@ -180,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "98 Templates/Tool_Template.md",
+                "file": "98 Templates/PlayBook_Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Tool_Template"
+              "title": "Plan de PlayBook_Template"
             }
           }
         ],
@@ -194,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,42 +225,42 @@
   },
   "active": "9dc25ec400defcf7",
   "lastOpenFiles": [
-    "98 Templates/Technique_Template.md",
-    "98 Templates/Service_Template.md",
-    "98 Templates/PlayBook_Template.md",
-    "98 Templates/Theory_Template.md",
-    "98 Templates/Writeup_Template.md",
-    "98 Templates/Tool_Template.md",
-    "00 Inbox/Nmap.md",
-    "00 Inbox/Truc a revoir.md",
-    "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
-    "01 PenTest/0 Playbooks/Host Enumeration.md",
-    "00 Inbox/Pour moi comment ça se passe.md",
-    "00 Inbox/Sans titre 1.md",
-    "01 PenTest/0 Playbooks/Service Enumeration.md",
-    "00 Inbox/Sans titre 3.md",
-    "00 Inbox/Sans titre 2.md",
-    "01 PenTest/0 Playbooks/Infrastructure Enumeration.md",
     "01 PenTest/0 Playbooks/OSINT.md",
+    "98 Templates/PlayBook_Template.md",
+    "01 PenTest/0 Playbooks/Linux Privilege Escalation.md",
+    "01 PenTest/0 Playbooks/Infrastructure Enumeration.md",
+    "01 PenTest/0 Playbooks/Host Enumeration.md",
+    "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
+    "01 PenTest/0 Playbooks/Service Enumeration.md",
+    "01 PenTest/0 Playbooks/Web Enumeration.md",
+    "01 PenTest/1 Services/135 WMI.md",
+    "01 PenTest/1 Services/5985 5986 WinRM.md",
+    "01 PenTest/10 Tools/xfreerdp.md",
+    "01 PenTest/1 Services/3389 RDP.md",
+    "01 PenTest/10 Tools/rdp-sec-check.pl.md",
+    "98 Templates/Tool_Template.md",
+    "98 Templates/Service_Template.md",
+    "01 PenTest/1 Services/512 513 514 R-Services.md",
+    "01 PenTest/1 Services/873 Rsync.md",
+    "01 PenTest/10 Tools/ssh-audit.md",
+    "01 PenTest/1 Services/22 SSH.md",
+    "01 PenTest/1 Services/139 445 SMB.md",
+    "01 PenTest/10 Tools/Nmap.md",
+    "01 PenTest/1 Services/161 162 SNMP.md",
+    "01 PenTest/1 Services/623 IPMI.md",
+    "01 PenTest/11 Techniques Diverses/CVE-2013-4786.md",
+    "01 PenTest/11 Techniques Diverses",
+    "01 PenTest/12 Payloads",
+    "01 PenTest/11 Techniques",
+    "01 PenTest/1 Services/1521 Oracle TNS.md",
+    "01 PenTest/1 Services/21 FTP.md",
     "98 Templates",
-    "00 Inbox/Internal links.md",
     "99 Attachement/PentestProcess.png",
-    "02 Theory/SMB.md",
     "99 Attachement",
     "02 Theory",
-    "01 PenTest/6 Containers/Docker.md",
     "01 PenTest/6 Containers",
-    "01 PenTest/5 Active Directory/Kerberoasting.md",
     "01 PenTest/5 Active Directory",
-    "01 PenTest/4 Windows/Registry.md",
     "01 PenTest/4 Windows",
-    "01 PenTest/3 Linux/SUID.md",
-    "01 PenTest/3 Linux",
-    "01 PenTest/2 Web/XSS.md",
-    "01 PenTest/2 Web",
-    "01 PenTest/10 Tools/Nmap.md",
-    "01 PenTest/10 Tools",
-    "01 PenTest/1 Services/445 SMB.md",
-    "01 PenTest/1 Services"
+    "01 PenTest/3 Linux"
   ]
 }

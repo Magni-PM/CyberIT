@@ -4,15 +4,7 @@
 
 # Enumeration
 
-~~~~sh
-
-~~~~
-
 # Exploitation
-
-~~~~sh
-
-~~~~
 
 # Detection
 
@@ -20,10 +12,7 @@
 
 # Useful Commands
 
-~~~~sh
-
-~~~~
-
 # Tools
 
 # References
+https://github.com/FortyNorthSecurity/EyeWitness
