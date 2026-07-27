@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3ea9411366addda3",
+        "id": "448a0e1b2508c15d",
         "type": "tabs",
         "children": [
           {
-            "id": "eca0d5fe08999966",
+            "id": "04d78322f1071584",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
+                "bFile": "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 0 Pentest Workflow  (Working Tree)"
             }
           }
         ]
@@ -189,8 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9dc25ec400defcf7",
+  "active": "04d78322f1071584",
   "lastOpenFiles": [
+    "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
+    "00 Inbox/EyeWitness.md",
     "99 Attachement/PentestProcess.png",
     "99 Attachement",
     "98 Templates/Writeup_Template.md",
@@ -219,7 +225,6 @@
     "01 PenTest/10 Tools/Enum4Linux-ng.md",
     "01 PenTest/1 Services/873 Rsync.md",
     "01 PenTest/1 Services/623 IPMI.md",
-    "01 PenTest/1 Services/5985 5986 WinRM.md",
     "01 PenTest/6 Containers",
     "01 PenTest/5 Active Directory",
     "01 PenTest/4 Windows",
