@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "448a0e1b2508c15d",
+        "id": "0a7d8327c9d19c01",
         "type": "tabs",
         "children": [
           {
-            "id": "04d78322f1071584",
+            "id": "b1f540a6dedf52a6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
-                "bFile": "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
-                "aRef": ""
+                "file": "98 Templates/Technique_Diverse_Template.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 0 Pentest Workflow  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Technique_Diverse_Template"
+            }
+          },
+          {
+            "id": "ed397dbed03dbdaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 PenTest/11 Techniques Diverses/Shell to full tty.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Shell to full tty"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 269.5
   },
   "right": {
     "id": "ae97be5e914afe2d",
@@ -94,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01 PenTest/11 Techniques Diverses/Shell to full tty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Backlinks for Shell to full tty"
             }
           },
           {
@@ -112,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "01 PenTest/11 Techniques Diverses/Shell to full tty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Bienvenue"
+              "title": "Outgoing links from Shell to full tty"
             }
           },
           {
@@ -155,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory/SMB.md",
+                "file": "01 PenTest/11 Techniques Diverses/Shell to full tty.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SMB"
+              "title": "Outline of Shell to full tty"
             }
           },
           {
@@ -193,38 +209,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04d78322f1071584",
+  "active": "9dc25ec400defcf7",
   "lastOpenFiles": [
+    "98 Templates/Technique_Diverse_Template.md",
+    "98 Templates/Service_Template.md",
+    "01 PenTest/11 Techniques Diverses/Shell to full tty.md",
+    "01 PenTest/1 Services/623 IPMI.md",
+    "01 PenTest/11 Techniques Diverses/CVE-2013-4786.md",
     "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
+    "01 PenTest/11 Techniques Diverses/File Transfer.md",
+    "98 Templates/Technique_Template.md",
+    "01 PenTest/0 Playbooks/OSINT.md",
+    "01 PenTest/0 Playbooks/Web Enumeration.md",
+    "01 PenTest/10 Tools/nikto.md",
+    "01 PenTest/1 Services/80 443 HTTP.md",
+    "98 Templates/Tool_Template.md",
+    "01 PenTest/10 Tools/wafw00F.md",
+    "01 PenTest/1 Services/53 DNS.md",
+    "01 PenTest/10 Tools/gobuster.md",
+    "98 Templates/Writeup_Template.md",
+    "98 Templates/Theory_Template.md",
+    "98 Templates/PlayBook_Template.md",
+    "01 PenTest/10 Tools/dig.md",
+    "01 PenTest/10 Tools/whois.md",
+    "01 PenTest/10 Tools/dnsenum.md",
+    "01 PenTest/1 Services/110 995 POP3.md",
     "00 Inbox/EyeWitness.md",
     "99 Attachement/PentestProcess.png",
     "99 Attachement",
-    "98 Templates/Writeup_Template.md",
-    "98 Templates/Tool_Template.md",
-    "98 Templates/Technique_Template.md",
-    "98 Templates/Theory_Template.md",
-    "98 Templates/Service_Template.md",
-    "98 Templates/PlayBook_Template.md",
     "98 Templates",
     "02 Theory/SMB.md",
     "02 Theory",
     "01 PenTest/6 Containers/Docker.md",
-    "01 PenTest/5 Active Directory/Kerberoasting.md",
-    "01 PenTest/4 Windows/Registry.md",
-    "01 PenTest/3 Linux/SUID.md",
-    "01 PenTest/2 Web/XSS.md",
-    "01 PenTest/2 Web/Web Shell.md",
-    "01 PenTest/12 Payloads/Reverse Shell.md",
-    "01 PenTest/12 Payloads/Bind Shell.md",
-    "01 PenTest/11 Techniques Diverses/CVE-2013-4786.md",
-    "01 PenTest/10 Tools/xfreerdp.md",
-    "01 PenTest/10 Tools/ssh-audit.md",
-    "01 PenTest/10 Tools/rdp-sec-check.pl.md",
-    "01 PenTest/10 Tools/Nmap.md",
-    "01 PenTest/10 Tools/Gobuster.md",
-    "01 PenTest/10 Tools/Enum4Linux-ng.md",
-    "01 PenTest/1 Services/873 Rsync.md",
-    "01 PenTest/1 Services/623 IPMI.md",
     "01 PenTest/6 Containers",
     "01 PenTest/5 Active Directory",
     "01 PenTest/4 Windows",
