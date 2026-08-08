@@ -8,20 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1f540a6dedf52a6",
+            "id": "e1f0a1099d17df18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 PenTest/0 Playbooks/Windows Credential Extraction.md",
+                "file": "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows Credential Extraction"
+              "title": "0 Pentest Workflow"
+            }
+          },
+          {
+            "id": "7353b1220a7e8262",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "98 Templates/Writeup_Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Writeup_Template"
+            }
+          },
+          {
+            "id": "a8b1ae75d9970586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Inbox/Fluffy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fluffy"
+            }
+          },
+          {
+            "id": "17d3ee9e64d79f27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 PenTest/0 Playbooks/Host Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Host Enumeration"
+            }
+          },
+          {
+            "id": "9acf6a0169e632c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 PenTest/10 Tools/evil-winrm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "evil-winrm"
+            }
+          },
+          {
+            "id": "5a71a9cd3680e184",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 PenTest/1 Services/139 445 SMB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "139 445 SMB"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -41,7 +112,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -156,13 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 PenTest/0 Playbooks/Windows Credential Extraction.md",
+                "file": "00 Inbox/Fluffy.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows Credential Extraction"
+              "title": "Outline"
             }
           },
           {
@@ -194,34 +267,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b1f540a6dedf52a6",
+  "active": "9dc25ec400defcf7",
   "lastOpenFiles": [
-    "98 Templates/Service_Template.md",
-    "98 Templates/Technique_Diverse_Template.md",
-    "98 Templates/Technique_Template.md",
-    "98 Templates/Writeup_Template.md",
-    "01 PenTest/1 Services/22 SSH.md",
-    "01 PenTest/0 Playbooks/Windows Credential Extraction.md",
-    "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
-    "01 PenTest/0 Playbooks/Session Stabilization.md",
-    "01 PenTest/0 Playbooks/Windows Privilege Escalation.md",
-    "01 PenTest/0 Playbooks/Web Enumeration.md",
-    "01 PenTest/0 Playbooks/Service Enumeration.md",
-    "01 PenTest/0 Playbooks/OSINT.md",
-    "01 PenTest/0 Playbooks/Linux Privilege Escalation.md",
-    "01 PenTest/0 Playbooks/Infrastructure Enumeration.md",
     "01 PenTest/0 Playbooks/Host Enumeration.md",
-    "98 Templates/Tool_Template.md",
-    "98 Templates/Theory_Template.md",
-    "98 Templates/PlayBook_Template.md",
-    "01 PenTest/10 Tools/ssh-audit.md",
-    "01 PenTest/10 Tools/hashcat.md",
+    "00 Inbox/Fluffy.md",
+    "01 PenTest/10 Tools/evil-winrm.md",
     "01 PenTest/1 Services/139 445 SMB.md",
-    "01 PenTest/10 Tools/netexec.md",
-    "00 Inbox/metasploit.md",
-    "01 PenTest/1 Services/3389 RDP.md",
+    "01 PenTest/1 Services/53 DNS.md",
+    "98 Templates/Writeup_Template.md",
+    "00 Inbox/SQLMap.md",
+    "01 PenTest/0 Playbooks/Infrastructure Enumeration.md",
+    "01 PenTest/10 Tools/gobuster.md",
+    "98 Templates/Tool_Template.md",
+    "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
+    "01 PenTest/0 Playbooks/Service Enumeration.md",
+    "01 PenTest/2 Web/WebShell.md",
+    "00 Inbox/69 TFTP.md",
+    "98 Templates/Service_Template.md",
+    "01 PenTest/4 Windows/LSA Secrets.md",
+    "01 PenTest/1 Services/1433 MSSQL.md",
     "01 PenTest/10 Tools/hydra.md",
-    "01 PenTest/1 Services/5985 5986 WinRM.md",
+    "01 PenTest/1 Services/3306 MySQL.md",
+    "01 PenTest/1 Services/21 FTP.md",
+    "01 PenTest/0 Playbooks/Web Enumeration.md",
+    "00 Inbox/Pour moi comment ça se passe.md",
+    "01 PenTest/0 Playbooks/Windows Credential Extraction.md",
+    "01 PenTest/4 Windows/Vault Credentials.md",
+    "01 PenTest/10 Tools/netexec.md",
+    "01 PenTest/4 Windows/LSASS Dump.md",
     "99 Attachement/PentestProcess.png",
     "99 Attachement",
     "98 Templates",
