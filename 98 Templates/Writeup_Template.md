@@ -3,6 +3,7 @@
 - Platform:
 - Difficulty:
 - Date:
+- Link:
 
 # Objective
 
@@ -10,11 +11,17 @@
 
 # Foothold
 
+# Lateral Movement to user
+
+## Local enumeration
+## Lateral movement vector
+
 # Privilege Escalation
 
-# Pillaging
+## Local enumeration
+## PrivEsc vector
 
-# Lateral Movement
+# Pillaging
 
 # Flags / Proof
 
