@@ -10,3 +10,8 @@ https://orange-cyberdefense.github.io/ocd-mindmaps/img/mindmap_ad_dark_classic_2
 https://mayfly277.github.io/posts/AD-mindmap-2k25/
 https://fr.scribd.com/document/896899982/Ctf
 https://www.brunorochamoura.com/posts/cpts-tips/
+
+
+Utiles pour cheatsheet
+https://docs.pwnvader.com/en/metodologias/recon/information-gathering-web/
+https://www.thehacker.recipes/ad/movement/credentials/dumping/windows-credential-manager

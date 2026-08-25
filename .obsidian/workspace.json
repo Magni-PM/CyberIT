@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0a7d8327c9d19c01",
+        "id": "cc87cb1d635822d1",
         "type": "tabs",
         "children": [
           {
-            "id": "e1f0a1099d17df18",
+            "id": "488ec5547109606e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "0 Pentest Workflow"
             }
-          },
-          {
-            "id": "b14f63760af5c238",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "98 Templates/Writeup_Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Writeup_Template"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -70,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "escx",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +63,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Rechercher"
             }
           },
           {
@@ -91,12 +76,11 @@
               "title": "Signets"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 268.5
   },
   "right": {
     "id": "ae97be5e914afe2d",
@@ -107,12 +91,26 @@
         "type": "tabs",
         "children": [
           {
+            "id": "051ed5ac6e15e861",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "98 Templates/PlayBook_Template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de PlayBook_Template"
+            }
+          },
+          {
             "id": "04108a8211f50d96",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 PenTest/0 Playbooks/Windows Credential Extraction.md",
+                "file": "98 Templates/PlayBook_Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,21 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Windows Credential Extraction"
-            }
-          },
-          {
-            "id": "051ed5ac6e15e861",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "01 PenTest/0 Playbooks/Windows Credential Extraction.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Windows Credential Extraction"
+              "title": "Rétrolien pour PlayBook_Template"
             }
           },
           {
@@ -151,7 +135,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
@@ -165,22 +149,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "119c6c4ca35e9b5d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "98 Templates/Writeup_Template.md",
-                "followCursor": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Toutes les propriétés"
             }
           },
           {
@@ -192,66 +161,82 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "119c6c4ca35e9b5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "98 Templates/PlayBook_Template.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de PlayBook_Template"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9dc25ec400defcf7",
+  "active": "488ec5547109606e",
   "lastOpenFiles": [
-    "01 PenTest/5 Active Directory/ESCXX.md",
+    "01 PenTest/0 Playbooks/Linux Enumeration.md",
+    "01 PenTest/0 Playbooks/Windows Enumeration.md",
+    "01 PenTest/4 Windows/Vault Credentials.md",
+    "01 PenTest/0 Playbooks/AD Enumeration.md",
+    "01 PenTest/10 Tools/bloodhound-python.md",
+    "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
+    "01 PenTest/0 Playbooks/Windows Privilege Escalation.md",
+    "01 PenTest/0 Playbooks/Windows Credential Extraction.md",
+    "98 Templates/Tool_Template.md",
+    "97 WriteUp/Forest.md",
+    "00 Inbox/bloodhound-python.md",
+    "01 PenTest/10 Tools/ldapsearch.md",
+    "98 Templates/PlayBook_Template.md",
+    "00 Inbox/Untitled 1.md",
+    "00 Inbox/Untitled.md",
+    "01 PenTest/0 Playbooks/Session Stabilization.md",
+    "01 PenTest/0 Playbooks/External Host Enumeration.md",
+    "01 PenTest/0 Playbooks/Service Enumeration.md",
+    "01 PenTest/0 Playbooks/Infrastructure Enumeration.md",
+    "01 PenTest/0 Playbooks/OSINT.md",
+    "00 Inbox/Truc a revoir.md",
+    "00 Inbox/SQL Injection.md",
+    "01 PenTest/10 Tools/nslookup.md",
+    "01 PenTest/0 Playbooks/Web Enumeration.md",
     "97 WriteUp/Fluffy.md",
+    "97 WriteUp",
     "99 Attachement/Pasted image 20260814213338.png",
     "99 Attachement/Pasted image 20260814213309.png",
-    "01 PenTest/10 Tools/bloodhound-python.md",
-    "98 Templates/Writeup_Template.md",
-    "00 Inbox/SQL Injection.md",
-    "01 PenTest/10 Tools/SQLMap.md",
-    "01 PenTest/10 Tools/certipy-ad.md",
-    "00 Inbox/ldapsearch.md",
-    "00 Inbox/389 LDAP.md",
-    "00 Inbox/Forest.md",
     "99 Attachement/Pasted image 20260813145840.png",
-    "00 Inbox/Untitled 1.md",
-    "01 PenTest/0 Playbooks/0 Pentest Workflow.md",
-    "01 PenTest/0 Playbooks/External Host Enumeration.md",
-    "01 PenTest/0 Playbooks/Infrastructure Enumeration.md",
-    "01 PenTest/0 Playbooks/Service Enumeration.md",
-    "98 Templates/Tool_Template.md",
-    "00 Inbox/nslookup.md",
-    "01 PenTest/1 Services/53 DNS.md",
-    "01 PenTest/1 Services/139 445 SMB.md",
-    "98 Templates/Service_Template.md",
-    "00 Inbox/Untitled.md",
-    "01 PenTest/10 Tools/metasploit.md",
-    "01 PenTest/10 Tools/evil-winrm.md",
-    "01 PenTest/10 Tools/BloodyAD.md",
-    "97 WriteUp",
-    "01 PenTest/10 Tools/xfreerdp.md",
+    "01 PenTest/0 Playbooks/Password Attack.md",
+    "01 PenTest/11 Techniques Diverses",
+    "01 PenTest/12 Payloads",
+    "01 PenTest/11 Techniques",
+    "98 Templates",
     "99 Attachement/PentestProcess.png",
     "99 Attachement",
-    "98 Templates",
     "02 Theory",
     "01 PenTest/6 Containers",
     "01 PenTest/5 Active Directory",
-    "01 PenTest/4 Windows",
-    "01 PenTest/3 Linux",
-    "01 PenTest/2 Web",
-    "01 PenTest/12 Payloads"
+    "01 PenTest/4 Windows"
   ]
 }
